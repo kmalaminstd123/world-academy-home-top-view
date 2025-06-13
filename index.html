@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- bootstrap cdn -->
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- fonts -->
+
+
+    <!-- swiper js cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- swiper js cdn -->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- top bar start -->
+    <div class="topbar py-md-4 shadow-sm pt-sm-4 pb-sm-4">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Logo Section -->
+                <div class="col-lg-4 col-md-12 text-center text-lg-start">
+                    <div class="main-logo">
+                        <a href="#"><img src="./images/logo.png" alt="Logo"></a>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="col-lg-5 col-md-12 d-flex justify-content-center justify-content-lg-center gap-1 flex-wrap mt-3 mt-lg-0">
+                    <a href="#" class="top-nav-md-btn"><i class="fa-solid fa-user"></i> Partner Affiliation</a>
+                    <a href="#" class="top-nav-md-btn"><i class="fa-solid fa-user-tie"></i> Become Trainer</a>
+                    <a href="#" class="top-nav-md-btn"><i class="fa-solid fa-user"></i> Login / Register</a>
+                </div>
+
+                <!-- Login/Signup Links -->
+                <div class="col-lg-3 col-md-12 d-flex gap-4 justify-content-lg-end justify-content-md-center mt-3 mt-lg-0 top-cart-block">
+                    <a href="#" class="nav-cart-lg"><i class="fa-solid fa-cart-plus"></i> Cart</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- top bar end -->
+
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg wa-navbar sticky-top">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <button class="btn text-white d-lg-none searchToggleBtn" type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav gap-3 mx-auto">
+
+              <li class="nav-item d-lg-none">
+                <a href="#" class="ps-0 nav-link mt-3"><i class="fa-solid fa-cart-plus"></i> Cart</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Verify
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PGD/Diploma
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accrediation
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Solutions
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Self Paced Course</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              
+            </ul>
+          </div>
+
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- search bar start -->
+    <section id="search-section">
+        <div class="container-fluid search searchSecWrap">
+
+            <button class="searchCloseBtn btn mb-3 d-lg-none" type="button">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-11 col-lg-11">
+
+                    <form action="https://worldacademy.uk/filter-courses" method="get">
+
+                        <div class="row">
+
+                            <div class="col-lg-3 mb-md-2 mb-sm-2 search-block px-0">
+                                <input type="search" name="title" placeholder="Search Courses With Keyword"
+                                    style="font-size: 0.8rem; height: 100%; min-height:0" class="form-control"
+                                    id="searchName">
+                            </div>
+
+                            <div class="col-lg-2 mb-md-2 mb-sm-2 search-block px-0">
+                                <select name="category" class="custom-select">
+                                    <option value="">Course Category</option>
+                                    <option value="1">Certified Professional Program</option>
+                                    <option value="2">Master Class Series</option>
+                                    <option value="4">Online Training</option>
+                                    <option value="5">Professional Diploma</option>
+                                    <option value="6">Post Graduate Diploma [PGD]</option>
+                                    <option value="7">Online Live Workshop</option>
+                                    <option value="8">Professional Certificate</option>
+                                    <option value="9">Master Training</option>
+                                    <option value="16">Free Course</option>
+                                    <option value="19">Diploma Program</option>
+                                    <option value="22">Online HR Courses</option>
+                                    <option value="23">Freelancer Certification</option>
+                                    <option value="24">Short Program</option>
+                                    <option value="25">Supply Chain</option>
+                                    <option value="26">Human Resource</option>
+                                    <option value="27">Project Management</option>
+                                    <option value="28">Accounting</option>
+                                    <option value="29">Finance</option>
+                                    <option value="30">Monitoring and Evaluation</option>
+                                    <option value="31">Health Safety</option>
+                                    <option value="32">Business Management</option>
+                                    <option value="33">Post Graduate Certificate (PGC)</option>
+                                    <option value="34">Webinar</option>
+                                    <option value="35">Advacned Diploma</option>
+                                    <option value="36">Graduate Diploma</option>
+                                    <option value="37">Certificate Series</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-2 mb-md-2 mb-sm-2 search-block px-0">
+                                <select class="custom-select" name="subject_area">
+                                    <option value="">Subject Area</option>
+                                    <option value="1">Human Resource Management</option>
+                                    <option value="2">Supply Chain Management</option>
+                                    <option value="3">Project Management</option>
+                                    <option value="4">Sales &amp; Marketing</option>
+                                    <option value="5">Accounting &amp; Finance</option>
+                                    <option value="6">Others</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-2 mb-md-2 mb-sm-2 search-block px-0">
+                                <select class="custom-select" name="month">
+                                    <option value="">Select Month</option>
+                                    <option value="1">January</option>
+                                    <option value="2">February</option>
+                                    <option value="3">March</option>
+                                    <option value="4">April</option>
+                                    <option value="5">May</option>
+                                    <option value="6">June</option>
+                                    <option value="7">July</option>
+                                    <option value="8">August</option>
+                                    <option value="9">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+
+                            </div>
+
+                            <div class="col-lg-2 mb-md-2 mb-sm-2 search-block px-0">
+                                <select class="custom-select" name="type" id="type">
+                                    <option value="">Course Mode</option>
+                                    <option value="c">Self Paced</option>
+                                    <option value="b">Live Session</option>
+                                    <option value="s">Physical Class Based</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-1 mb-md-2 mb-sm-2 px-0 search-block " id="loaction" style="display:none">
+                                <select class="custom-select" name="venue">
+                                    <option style="color: gray" value="">Location</option>
+                                    <option value=""></option>
+                                    <option value="Admin Course">Admin Course</option>
+                                    <option value="Admin Couse for Online Checking">Admin Couse for Online Checking
+                                    </option>
+                                    <option value="Admin Website Checking test">Admin Website Checking test</option>
+                                    <option value="Central Auditorium, MNU, Male,&nbsp;Maldives.">Central Auditorium,
+                                        MNU, Male,&nbsp;Maldives.</option>
+                                    <option value="Kuala Lumpur, Malaysia.">Kuala Lumpur, Malaysia.</option>
+                                    <option value="malaysia">malaysia</option>
+                                    <option value="NMU Business School, Male, Maldives.">NMU Business School, Male,
+                                        Maldives.</option>
+                                    <option value="Novotel Singapore">Novotel Singapore</option>
+                                    <option value="Online">Online</option>
+                                    <option value="Online (ZOOM App)">Online (ZOOM App)</option>
+                                    <option value="Online via Zoom">Online via Zoom</option>
+                                    <option value="Online zoom">Online zoom</option>
+                                    <option value="Partner Course">Partner Course</option>
+                                    <option value="Renuka Hotel, Colombo, Sri Lanka.">Renuka Hotel, Colombo, Sri Lanka.
+                                    </option>
+                                    <option value="Sri Lanka (Renuka Hotel, Colombo)">Sri Lanka (Renuka Hotel, Colombo)
+                                    </option>
+                                    <option value="test">test</option>
+                                    <option value="Venue: Kuala Lumpur Malaysia.">Venue:
+                                        Kuala Lumpur Malaysia.</option>
+                                    <option value="Venue: Male,&nbsp;Maldives.">Venue:
+                                        Male,&nbsp;Maldives.</option>
+                                    <option value="Venue: Mt Zion Hotel, William Street, Kampala, Uganda.">Venue:
+                                        Mt Zion Hotel, William Street, Kampala, Uganda.</option>
+                                    <option value="Venue: PSSSF Commercial Complex, Dar es Salaam, Tanzania.">Venue:
+                                        PSSSF Commercial Complex, Dar es Salaam, Tanzania.</option>
+                                    <option
+                                        value="Venue:  Perdana Business Center, 17-3A, Jalan PJU 8/5i, Bdr, Damansara, Predana, 47820 Petaling Jaya, Selangor, Malaysia.">
+                                        Venue: Perdana Business Center, 17-3A, Jalan PJU 8/5i, Bdr, Damansara, Predana,
+                                        47820 Petaling Jaya, Selangor, Malaysia.</option>
+                                    <option value="Venue: Novotel, Singapore.">Venue: Novotel, Singapore.</option>
+                                    <option value="Virtual Class [through zoom]">Virtual Class [through zoom]</option>
+                                </select>
+                            </div>
+
+                            <div id="searchBtn" class="col-lg-1 px-0">
+                                <a href="#" rel="nofollow" target="_self"
+                                    style="text-decoration: none; height: 100%; min-height:0">
+                                    <button
+                                        style="border-radius: 0.3rem; background: #D59A32; min-height:100%; height: 100%; width: 100%"
+                                        class="mdc-button mdc-button--raised my-btn">
+                                        <div class="mdc-button__ripple"></div>
+                                        <span class="mdc-button__label text-capitalize">Search</span>
+                                    </button>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div id="suggestCourseName"></div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- search bar end -->
+
+
+    <!-- banner slider part start -->
+    <section id="bannerSlider">
+        <div class="swiper bannerSliderSwiper">
+            <div class="swiper-wrapper bannerSliderSwperWrapper">
+
+                <div class="swiper-slide bannerSliderSwiperSlide d-flex justify-content-center align-items-center" style="background: linear-gradient(rgba(113, 96, 39, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img01.png); width: 100%; height: 450px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="bannerSlideCont text-white text-center">
+                        <h2 class="text-capitalize">Certified Professional Program</h2>
+                        <p class="text-capitalize">Globally recognized certified professional courses</p>
+                        <a class="text-capitalize bannerSliderBtn" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide bannerSliderSwiperSlide d-flex justify-content-center align-items-center" style="background: linear-gradient(rgba(113, 96, 39, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img01.png); width: 100%; height: 450px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="bannerSlideCont text-white text-center">
+                        <h2 class="text-capitalize">Certified Professional Program</h2>
+                        <p class="text-capitalize">Globally recognized certified professional courses</p>
+                        <a class="text-capitalize bannerSliderBtn" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide bannerSliderSwiperSlide d-flex justify-content-center align-items-center" style="background: linear-gradient(rgba(113, 96, 39, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img01.png); width: 100%; height: 450px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="bannerSlideCont text-white text-center">
+                        <h2 class="text-capitalize">Certified Professional Program</h2>
+                        <p class="text-capitalize">Globally recognized certified professional courses</p>
+                        <a class="text-capitalize bannerSliderBtn" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide bannerSliderSwiperSlide d-flex justify-content-center align-items-center" style="background: linear-gradient(rgba(113, 96, 39, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img01.png); width: 100%; height: 450px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="bannerSlideCont text-white text-center">
+                        <h2 class="text-capitalize">Certified Professional Program</h2>
+                        <p class="text-capitalize">Globally recognized certified professional courses</p>
+                        <a class="text-capitalize bannerSliderBtn" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide bannerSliderSwiperSlide d-flex justify-content-center align-items-center" style="background: linear-gradient(rgba(113, 96, 39, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img01.png); width: 100%; height: 450px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="bannerSlideCont text-white text-center">
+                        <h2 class="text-capitalize">Certified Professional Program</h2>
+                        <p class="text-capitalize">Globally recognized certified professional courses</p>
+                        <a class="text-capitalize bannerSliderBtn" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide bannerSliderSwiperSlide d-flex justify-content-center align-items-center" style="background: linear-gradient(rgba(113, 96, 39, 0.5), rgba(0, 0, 0, 0.5)), url(./images/img01.png); width: 100%; height: 450px; background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="bannerSlideCont text-white text-center">
+                        <h2 class="text-capitalize">Certified Professional Program</h2>
+                        <p class="text-capitalize">Globally recognized certified professional courses</p>
+                        <a class="text-capitalize bannerSliderBtn" href="#">Learn More</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination bannerSlidePagination"></div>
+        </div>
+    </section>
+    <!-- banner slider part end -->
+
+
+    <div style="margin-top: 150dvh;">
+
+    </div>
+
+    <!-- bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <!-- bootstrap cdn -->
+
+    <!-- font awesome cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- font awesome cdn -->
+
+    <!-- swiper js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- swiper js cdn -->
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
