@@ -258,3 +258,260 @@ li {
 }
 
 /* ====================== banner slider css end ====================== */
+
+
+/* ====================== about part css end ====================== */
+
+
+
+#about_part {
+    padding: 80px 0;
+    background-color: #fdfdfd;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #333;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.about_text h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #746128;
+}
+
+.about_text p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #444;
+}
+
+.about_text a {
+    background-color: #746128;
+    padding: 12px 20px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.about_text a:hover {
+    background-color: #5e501f;
+    transform: translateY(-2px);
+}
+
+
+@media screen and (max-width: 768px) {
+    .section-heading h2{
+        font-size: 28px;
+    }
+
+    .about_text h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section-heading h2{
+        font-size: 22px;
+    }
+
+    .about_text h2 {
+        font-size: 20px;
+    }
+}
+
+/* ====================== about part css end ====================== */
+
+
+/* ====================== service card part css start ====================== */
+
+
+/* service part css start */
+
+.services-section {
+    background-color: #dedacd;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #bcac94;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin: 0 auto 20px;
+}
+
+.service-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #75642c;
+    margin-bottom: 15px;
+}
+
+.service-text {
+    font-size: 17px;
+}
+/* service part css start */
+
+/* service card v2 start */
+
+.services-section.v2{
+    background-color: #fff;
+}
+
+.services-section.v2 .service-card{
+    background-color: #dedacd;
+    border-radius: 0;
+}
+
+.services-section.v2 .service-card.odd{
+    background-color: #bcac94;
+}
+
+.services-section.v2 .service-card.odd .service-icon{
+    background-color: #dedacd;
+}
+
+/* service card v2 end */
+
+/* ====================== service card part css start ====================== */
+
+
+/* ====================== home category part css start ====================== */
+
+.section-heading h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #333;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .section-heading h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section-heading h2 {
+        font-size: 22px;
+    }
+}
+
+
+.card-content {
+    height: 100%;
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #75642c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.course-number {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #75642c;
+    line-height: 1;
+    text-shadow: 2px 2px 8px rgba(117, 100, 44, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+.number-label {
+    font-size: 0.9rem;
+    color: #75642c;
+    opacity: 0.7;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#course_category_home {
+    background-color: #fafafa;
+    padding: 70px 0;
+}
+
+#course_category_home .single_course_cat {
+    width: 100%;
+    /* background: #dedacd; */
+    /* background-color: #d6d2c4; */
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 7px;
+    box-shadow:
+        0 10px 30px rgba(117, 100, 44, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+#course_category_home .single_course_cat::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #75642c;
+}
+
+.card-horizontal .course-number {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.card-horizontal .text-section {
+    text-align: left;
+}
+
+.card-horizontal .number-section {
+    text-align: right;
+}
+
+.single_course_cat:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow:
+        0 20px 40px rgba(117, 100, 44, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+
+/* ====================== home category part css start ====================== */
